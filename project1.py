@@ -1,5 +1,5 @@
 from PIL import Image
-
+#Austin Gray CST 205 Section 2 TTh 10am
 #https://github.com/titanbronco/205project1
 
 def medianOdd(myList):
