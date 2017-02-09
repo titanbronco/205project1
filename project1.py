@@ -1,5 +1,7 @@
 from PIL import Image
 
+#https://github.com/titanbronco/205project1
+
 def medianOdd(myList):
 # Store list length in the variable listLength
     listLength = len(myList)
