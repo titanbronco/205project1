@@ -17,22 +17,15 @@ def medianOdd(myList):
 # Return the object located at that index
 
     return sortedValues[middleIndex]
+imglist =[]
+for i in range (1,10):    
+    imglist.append(Image.open(str(i)+".png"))
     
-img1 = Image.open('1.png')
-img2 = Image.open('2.png')
-img3 = Image.open('3.png')
-img4 = Image.open('4.png')
-img5 = Image.open('5.png')
-img6 = Image.open('6.png')
-img7 = Image.open('7.png')
-img8 = Image.open('8.png')
-img9 = Image.open('9.png')
-imglist = [img1, img2, img3, img4, img5, img6, img7, img8, img9]
 redPixelList = []
 greenPixelList = []
 bluePixelList= []
 #list_of_pixels = []
-pictureWidth, pictureHeight = img1.size 
+pictureWidth, pictureHeight = imglist[0].size 
 cleanimg = Image.new('RGB',(pictureWidth,pictureHeight))  
 
 
